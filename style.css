@@ -1,0 +1,83 @@
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,300;1,600&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    height: 100vh;
+    background-image: url("images/mycover.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* color: var(--color-white); */
+}
+
+.card {
+    position: relative;
+    width: 35rem;
+    padding: 2rem 1rem;
+    padding-top: 4rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8%;
+}
+
+.card-content {
+    margin: 50px;
+}
+
+.profile-pic {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+}
+
+
+h1 {
+    font-family:'vt323', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+p {
+    margin-top: 3px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.icons{
+    display: inline-block;
+    justify-content: space-between;
+    margin-bottom: .1rem;
+}
+
+.icons img {
+    max-width:15%;
+    max-height:15%;
+    width: auto;
+    height: auto;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom:
+    display: inline-box;
+    justify-content: bottom;
+    gap: 5rem;
+}
+
